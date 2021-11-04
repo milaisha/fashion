@@ -10,10 +10,14 @@ table, th, td  {
     color: red;
 }
 h1 {
-color: blue;
+color: red;
+}
+h2 {
+  color: blue;
 }
 p {
-color: chartreuse;
+  text-align: center;
+color: black;
 }
 img {
   width: 300px;
@@ -30,3 +34,24 @@ img {
   th,td {
     padding: 10px;
   }
+  #continue {
+    text-align: center;
+    color: black;
+  }
+  .h1 {
+    color: red;
+    }
+    .h2 {
+      color: blue;
+    }
+  p.large {
+    font-size: 300%;
+  }
+    .centre {
+      text-align: center;
+      color: black;
+    }
+    p.centre{
+      text-align: center;
+      color: black;
+    }
