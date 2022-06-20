@@ -104,11 +104,11 @@ main{
     margin: 0 -0.5rem;
 }
 .task.actions button{
- cursor: pointer;
- margin: 0 0.5rem;
- font-size:1.125rem;
- font-weight: 800px;
- text-transform: uppercase
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size:1.125rem;
+    font-weight: 800px;
+    text-transform: uppercase
 }
 .task.actions button:hover{
     opacity: 0.8;
@@ -123,4 +123,7 @@ main{
 }
 .task.actions.delete{
     color: crimson;
+}
+.task.delete.edit{
+    text-align: center;
 }
