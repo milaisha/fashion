@@ -1,13 +1,13 @@
 function calculateareaPerRectangle(){
-    var w = document.getElementById("width").value;
-    var h = document.getElementById("height").value;
+    let w = document.getElementById("width").value;
+    let h = document.getElementById("height").value;
     
-    var area = w * h;
-    var perimeter = w + w + h + h;
+    let area = w * h;
+    let perimeter = w + w + h + h;
     
-    var result = "Area: " + area + " Perimeter: " + perimeter;
+    let result = "Area: " + area + " Perimeter: " + perimeter;
     
-    document.getElementById("output").innerHTML = value; 
+    document.getElementById("output").innerHTML = result; 
   }
   function calculateareaPercircle(radius){
     this.radius = radius;
