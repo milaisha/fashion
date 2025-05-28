@@ -1,1 +1,1 @@
-This was my first ever wesite
+This was my first ever website
